@@ -1,6 +1,13 @@
 # EduPress — Premium FSE School Theme
 
+![WordPress](https://img.shields.io/badge/WordPress-6.3%2B-21759B?logo=wordpress&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?logo=php&logoColor=white)
+![License](https://img.shields.io/badge/License-GPL--2.0--or--later-blue)
+
 EduPress is a modern WordPress Full Site Editing (FSE) theme crafted for schools, academies, and learning platforms. It combines a clean editorial layout with reusable block patterns for rapid page building.
+
+- Changelog: [CHANGELOG.md](CHANGELOG.md)
+- Contributing: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Why EduPress
 
