@@ -17,7 +17,7 @@ EduPress is a modern WordPress Full Site Editing (FSE) theme crafted for schools
 - **FSE-First Workflow**: Edit visually in Appearance → Editor
 - **Consistent Design System**: Colors, typography, spacing from `theme.json`
 
-## Project Structure
+## Current Project Structure
 
 ```
 Edupress-Theme/
@@ -29,10 +29,14 @@ Edupress-Theme/
 │   ├── features.php
 │   └── announcements.php
 ├── templates/
+│   ├── 404.html
+│   ├── archive.html
 │   ├── front-page.html
 │   ├── home.html
 │   ├── index.html
-│   └── page.html
+│   ├── page.html
+│   ├── search.html
+│   └── single.html
 ├── theme.json
 ├── style.css
 └── index.php
@@ -54,10 +58,14 @@ Edupress-Theme/
 
 ## Included Templates
 
+- `templates/404.html` — Not found page
+- `templates/archive.html` — Archive listing pages
 - `templates/front-page.html` — Homepage layout
 - `templates/home.html` — Posts index when homepage is static
 - `templates/index.html` — Global fallback template
 - `templates/page.html` — Standard pages
+- `templates/search.html` — Search results page
+- `templates/single.html` — Single post page
 
 ## Included Pattern Slugs
 
@@ -73,9 +81,40 @@ Edupress-Theme/
 
 > If a pattern is updated in code but the editor still shows old content, remove the existing section in the Site Editor and insert the pattern again. Saved template content does not auto-sync with updated pattern source files.
 
+## Distribution (Install on Other Sites)
+
+1. Ensure the folder name is `Edupress-Theme`.
+2. Create a zip from the theme root (the zip should contain `style.css` at top level, not a nested folder).
+3. In a target WordPress site, go to **Appearance → Themes → Add New → Upload Theme**.
+4. Upload the zip and activate the theme.
+5. Go to **Settings → Reading** and set homepage mode (static page or latest posts).
+
+### Pre-release Checklist
+
+- `style.css` theme headers are complete.
+- `theme.json` palette/typography tokens are valid.
+- Templates and patterns load without block validation errors.
+- `screenshot.png` matches current visual design.
+- Front Page template is not overridden by stale Site Editor customizations.
+
+## Troubleshooting
+
+- **Invalid block content in Site Editor**: reset the affected template/template-part, then reinsert the updated pattern.
+- **Pattern update not visible**: remove old inserted pattern instances and insert again.
+- **Color mismatch in header/footer**: confirm no customized template-part override exists in Site Editor.
+
+## Changelog
+
+### v1.1
+
+- Added release-ready template coverage (`single`, `archive`, `search`, `404`).
+- Improved pattern structure for better FSE compatibility.
+- Added translation-ready output in pattern text content.
+- Replaced remote hero image dependency with local theme image fallback.
+- Expanded theme metadata in `style.css` for portability.
+
 ## Roadmap
 
-- Custom `single.html` and `archive.html`
 - Dedicated About / Admissions page patterns
 - Accessibility and performance pass
 - Screenshot refresh for theme preview card
