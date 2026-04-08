@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "1200px",
+      "wideSize": "1400px"
+    },
+    "color": {
+      "palette": [
+        { "name": "Navy", "slug": "navy", "color": "#0f172a" },
+        { "name": "Teal", "slug": "teal", "color": "#14b8a6" },
+        { "name": "Dark Gray", "slug": "dark-gray", "color": "#334155" },
+        { "name": "Light Gray", "slug": "light-gray", "color": "#f8fafc" },
+        { "name": "White", "slug": "white", "color": "#ffffff" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Inter, system-ui, sans-serif",
+          "slug": "inter",
+          "name": "Inter"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--inter)"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontWeight": "700"
+        }
+      },
+      "button": {
+        "color": {
+          "background": "var(--wp--preset--color--teal)",
+          "text": "var(--wp--preset--color--white)"
+        }
+      }
+    }
+  }
+}
