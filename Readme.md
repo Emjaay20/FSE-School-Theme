@@ -110,9 +110,8 @@ If you prefer a single download, use the combined bundle release zip. It contain
 
 - Theme zip: `Edupress-Theme-v1.1.0.zip`
 - Plugin zip: `EduPress-Blocks-v1.0.0.zip`
-- Bundle zip: `EduPress-Complete-Bundle-v1.1.0.zip`
 
-All release artifacts are generated under the `wp-content/releases/` directory.
+All release artifacts are generated under the [GitHub Releases page](https://github.com/Emjaay20/FSE-School-Theme/releases).
 
 ### Pre-release Checklist
 
