@@ -96,6 +96,24 @@ Edupress-Theme/
 4. Upload the zip and activate the theme.
 5. Go to **Settings → Reading** and set homepage mode (static page or latest posts).
 
+### Recommended Install Flow
+
+For the best experience, install both the theme and the companion plugin:
+
+1. Install and activate the **EduPress Blocks** plugin from the releases package.
+2. Install and activate the **EduPress** theme.
+3. Import or insert the included block patterns and the custom Assignment Card block as needed.
+
+If you prefer a single download, use the combined bundle release zip. It contains both the theme and plugin folders together for easier setup.
+
+### Release Downloads
+
+- Theme zip: `Edupress-Theme-v1.1.0.zip`
+- Plugin zip: `EduPress-Blocks-v1.0.0.zip`
+- Bundle zip: `EduPress-Complete-Bundle-v1.1.0.zip`
+
+All release artifacts are generated under the `wp-content/releases/` directory.
+
 ### Pre-release Checklist
 
 - `style.css` theme headers are complete.
